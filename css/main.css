@@ -75,13 +75,14 @@ html, body {
 	left: 90px;
 }
 
-.nav-item {
+.nav a {
 	font-size: 2rem;
 	line-height: 100%;
 	letter-spacing: .2rem;
 	color: white;
 	text-align: left;
 	text-shadow: 2px white;
+	text-decoration: none;
 }
 
 .nav ul {
