@@ -38,3 +38,14 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'nexa-black';
+    src: url('../fonts/nexa-black/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../fonts/nexa-black/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

@@ -22,6 +22,10 @@
 	font-family: "acme-regular", sans-serif;
 }
 
+.nexa   {
+	font-family: "nexa-black", sans-serif;
+}
+
 /* 02. Base styles */
 html {
 	font-size: 10px;
@@ -147,8 +151,16 @@ html, body {
   background-color: #000000;
   margin: 0px;
   z-index: 9;
-  white-space: nowrap;
 }
+
+/*
+.hexagon inner {
+	font-size: 2rem;
+	color: #FFFFFF; 
+	text-align: center; 
+	margin-top:1rem;
+}
+*/
 
 .hexagon:before,
 .hexagon:after {
@@ -164,6 +176,7 @@ html, body {
 }
 
 .hexagon:after {
+  left: 0;
   top: 100%;
   border-top: 25px solid #000000;
 }
