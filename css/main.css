@@ -8,6 +8,7 @@
  * 05. Paddings
  * 06. 'About me' format
  * 07. 'My purpose' format
+ * 08. 'Contact me' format
  * ============================================
  */
 
@@ -147,7 +148,29 @@ html, body {
 	position: absolute;
 	width: 100%;
 	min-width: 500px;
+	height: 800px;
 	background-color: #003D79; 
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	text-align: center;
+}
+
+.pd-3 {
+	position: absolute;
+	width: 100%;
+	min-width: 500px;
+	background-color: #9999CC; 
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	text-align: center;
+}
+
+.pd-end {
+	position: absolute;
+	width: 100%;
+	min-width: 500px;
+	height: 150px;
+	background-color: #000000; 
 	padding-top: 15rem;
 	padding-bottom: 15rem;
 	text-align: center;
@@ -256,6 +279,20 @@ html, body {
 }
 
 /* 07. 'My purpose' format */
+.my-pur {
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+}
+
+.my-pur p {
+	font-size: 3rem;
+	line-height: 110%;
+	letter-spacing: .2rem;
+	color: white;
+}
+
+/* 08. 'Contact me' format */
 .my-pur {
 	width: 50%;
 	display: inline-block;

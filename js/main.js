@@ -26,5 +26,9 @@ function Func_pur() {
     }, 1500);
 }
 
-/* 2. Obtain div height for paddings. */
+function Func_con() {
+    $('html, body').animate({
+        scrollTop: $("#con_div").offset().top
+    }, 1500);
+}
 

@@ -42,7 +42,7 @@
     <li><a href="#home" onclick="Func_top()">Home</a></li>
     <li><a href="#" onclick="Func_me()">About me</a></li>
     <li><a href="#" onclick="Func_pur()">My purpose</a></li>
-    <li><a href="#contact">Contact me</a></li>
+    <li><a href="#" onclick="Func_con()">Contact me</a></li>
   </ul>
 </div>
 
@@ -125,10 +125,48 @@
 </div>
 </section>
 
-<div style="text-align: center; margin-top:300%">	
-	<image src="images/hj1.jpg"></image>
-	<image src="images/hj2.jpg"></image>
+<section id="con">
+<div id="con_div" class="pd-3">
+<script language="javascript"type="text/javascript">
+	var height1 = document.getElementById("overlay").offsetHeight;
+	var height2 = document.getElementById("me_div").offsetHeight;
+	var height3 = document.getElementById("pur_div").offsetHeight;
+	var fix = 90;
+    document.getElementById("con_div").style.top = height1 + height2 + height3 - fix + "px";
+</script>
+	<div class="my-pur">
+		<div style="text-align: center;">
+			<div class="hexagon" style="display: inline-block;">
+				<div class="nexa" style="font-size: 2rem; color: #FFFFFF; text-align: center; margin-top:1rem;">
+					CONTACT ME
+				</div>	
+			</div>
+		</div>
+		<p>
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			</p>
+	</div>
 </div>
+</section>
+
+<section id="ending">
+<div id="end" class="pd-end">
+<script language="javascript"type="text/javascript">
+	var height1 = document.getElementById("overlay").offsetHeight;
+	var height2 = document.getElementById("me_div").offsetHeight;
+	var height3 = document.getElementById("pur_div").offsetHeight;
+	var height4 = document.getElementById("con_div").offsetHeight;
+	var fix = 130;
+    document.getElementById("end").style.top = height1 + height2 + height3 + height4 - fix + "px";
+</script>
+	<div style="text-align: center;">	
+		<image src="images/hj1.jpg"></image>
+		<image src="images/hj2.jpg"></image>
+	</div>
+</div>
+</section>
 
 <!-- JavaScript-->
 <script src="js/jquery.min.js"></script> <!-- Resource jQuery -->
