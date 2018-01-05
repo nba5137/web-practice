@@ -4,7 +4,8 @@
  * 12/10/2017
  * 
  * ===================================================================
- * 1. Scroll to top of the page
+ * 1. Scroll to top of the page.
+ * 2. Obtain div height for paddings.
  * ------------------------------------------------------------------- 
  */ 
 
@@ -15,7 +16,15 @@ function Func_top() {
 
 function Func_me() {
     $('html, body').animate({
-        scrollTop: $("#me").offset().top
+        scrollTop: $("#me_div").offset().top
     }, 1500);
 }
+
+function Func_pur() {
+    $('html, body').animate({
+        scrollTop: $("#pur_div").offset().top
+    }, 1500);
+}
+
+/* 2. Obtain div height for paddings. */
 

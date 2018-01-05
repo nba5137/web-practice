@@ -7,6 +7,7 @@
  * 04. Header & Backgrounds
  * 05. Paddings
  * 06. 'About me' format
+ * 07. 'My purpose' format
  * ============================================
  */
 
@@ -125,7 +126,7 @@ html, body {
 	left: 0;
 	width: 100%;
 	min-width: 500px;
-	height: 130%;
+	height: 1080px;
 	background: #111111;
 	opacity: .65;
 	z-index: -1;
@@ -134,8 +135,8 @@ html, body {
 .pd-1 {
 	position: absolute;
 	width: 100%;
-	top: 130%;
 	min-width: 500px;
+	height: 1000px;
 	background-color: white; 
 	padding-top: 15rem;
 	padding-bottom: 15rem;
@@ -145,7 +146,6 @@ html, body {
 .pd-2 {
 	position: absolute;
 	width: 100%;
-	top: 186rem; 
 	min-width: 500px;
 	background-color: #003D79; 
 	padding-top: 15rem;
@@ -184,6 +184,7 @@ html, body {
 }
 
 .hexagon:before {
+  left: 0;
   bottom: 100%;
   border-bottom: 25px solid #000000;
 }
@@ -252,4 +253,18 @@ html, body {
 
 .about-me key {
 	color: #000000;
+}
+
+/* 07. 'My purpose' format */
+.my-pur {
+	width: 50%;
+	display: inline-block;
+	text-align: left;
+}
+
+.my-pur p {
+	font-size: 3rem;
+	line-height: 110%;
+	letter-spacing: .2rem;
+	color: white;
 }

@@ -41,7 +41,7 @@
   <ul>
     <li><a href="#home" onclick="Func_top()">Home</a></li>
     <li><a href="#" onclick="Func_me()">About me</a></li>
-    <li><a href="#purpose">My purpose</a></li>
+    <li><a href="#" onclick="Func_pur()">My purpose</a></li>
     <li><a href="#contact">Contact me</a></li>
   </ul>
 </div>
@@ -53,11 +53,16 @@
 	<h1 class="main-title-2">I'm Sibo Song.</h1>
 </div>
 
-<div class="overlay"></div>
+<div id="overlay" class="overlay"></div>
 
 
 <section id="me">
-<div class="pd-1">
+<div id="me_div" class="pd-1">
+<script language="javascript"type="text/javascript">
+	var oh = document.getElementById("overlay").offsetHeight;
+	var fix = 25;
+	document.getElementById("me_div").style.top = oh - fix + "px";
+</script>
 	<div class="about-me">
 		<div class="hexagon" style="display: inline-block;">
 			<div class="nexa" style="font-size: 2rem; color: #FFFFFF; text-align: center; margin-top:1rem;">
@@ -91,11 +96,30 @@
 
 	</div>
 </div>
-
-<div class="pd-2"></div>
-
 </section>
 
+<section id="pur">
+<div id="pur_div" class="pd-2">
+<script language="javascript"type="text/javascript">
+	var height1 = document.getElementById("overlay").offsetHeight;
+	var height2 = document.getElementById("me_div").offsetHeight;
+	var fix = 25;
+    document.getElementById("pur_div").style.top = height1 + height2 - fix + "px";
+</script>
+	<div class="my-pur" style="text-align: center;">
+		<div class="hexagon" style="display: inline-block;">
+			<div class="nexa" style="font-size: 2rem; color: #FFFFFF; text-align: center; margin-top:1rem;">
+				MY PURPOSE
+			</div>	
+		</div>
+		<p>
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			For now, everything's fine, and now I just wanna test it. For now, everything's fine, and now I just wanna test it. 
+			</p>
+	</div>
+</div>
+</section>
 
 <div style="text-align: center; margin-top:200%">	
 	<image src="images/hj1.jpg"></image>
