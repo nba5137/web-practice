@@ -1,2 +1,3 @@
 # Homepage
-A website for personal homepage. 
+Practice for personal homepage. 
+Bad version. (Aborted)
